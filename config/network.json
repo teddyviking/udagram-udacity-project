@@ -1,7 +1,7 @@
 [
 	{
 		"ParameterKey": "EnvironmentName",
-		"ParameterValue": "Rafa-Udacity-Cloudformation"
+		"ParameterValue": "Rafa-Udacity-Project2"
 	},
 	{
 		"ParameterKey": "VpcCIDR",

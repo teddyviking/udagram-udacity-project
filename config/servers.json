@@ -5,6 +5,6 @@
     },
     {
         "ParameterKey": "AdminIPAddress",
-        "ParameterValue": "47.62.114.253/32"
+        "ParameterValue": "47.62.222.142/32"
     }
 ]

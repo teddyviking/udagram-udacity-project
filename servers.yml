@@ -193,3 +193,14 @@ Resources:
       Tags:
         - Key: Name
           Value: !Sub ${EnvironmentName} WebApp TargetGroup
+
+Outputs:
+  WebAppLB:
+    Description: A reference to the Loadbalancer DNS Name
+    Value: 
+      !Join
+      - ''
+      - - "http://"
+        - !GetAtt WebAppLB.DNSName
+    Export:
+        Name: !Sub ${EnvironmentName}-LOADBALANCER-DNS

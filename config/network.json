@@ -1,7 +1,7 @@
 [
     {
         "ParameterKey": "EnvironmentName",
-        "ParameterValue": "Rafa-Udacity-Project2"
+        "ParameterValue": "Rafa-Udagram"
     },
     {
         "ParameterKey": "VpcCIDR",

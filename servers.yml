@@ -110,7 +110,6 @@ Resources:
           sudo unzip -o udacity.zip
       ImageId: ami-07b4f3c02c7f83d59
       IamInstanceProfile: !Ref WebAppInstanceProfile
-      KeyName: free
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.medium
